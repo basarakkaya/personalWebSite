@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+    #full-name,
+    #brief-title,
+    #urls {
+        text-align: center;
+    }
+}
+
+.jumbotron-custom {
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.section {
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.footer {
+    text-align: center;
+    color: #e9ecef;
+    padding: 20px;
+}
+#userphoto {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

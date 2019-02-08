@@ -1,0 +1,156 @@
+{
+    "personal_info":{
+        "full_name": "Osman Başar Akkaya",
+        "photo_url": "",
+        "brand_logo_url": "",
+        "social_urls": [
+            {
+                "icon": "",
+                "url_hover_text": "",
+                "url": ""
+            }
+        ],
+        "receiver_mail_address": "contact@basarakkaya.com"
+    },
+    "translations":{
+        "tr": {
+            "bio": {
+                "field_id": "bio",
+                "field_title": "Hakkımda",
+                "brief_info": "..."
+            },
+            "fields": [
+                {
+                    "field_id": "work",
+                    "field_title": "İş Deneyimi",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Netaş Telekomünikasyon A.Ş., Javascript Developer",
+                            "field_bullet_badge_text": "07/2017 - ...",
+                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "SmartOffice Client Development"
+                                }
+                            ]
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Vascomm A.Ş., HW&SW Developer",
+                            "field_bullet_badge_text": "12/2016 - 06/2017",
+                            "field_bullet_badge_is_complete": true,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "Donanım Geliştirme"
+                                },
+                                {
+                                    "bullet_info_text": "Yazılım Geliştirme"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "field_id": "edu",
+                    "field_title": "Eğitim",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "BAÜ Bilgisayar Müh. Yüksek Lisans",
+                            "field_bullet_badge_text": "09/2017 - ...",
+                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "GNO: 3.44, Tez Konusu: ..."
+                                }
+                            ]
+                        }
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "ODTÜ Elektrik-elektronik Müh. Lisans",
+                            "field_bullet_badge_text": "09/2010 - 06/2016",
+                            "field_bullet_badge_is_complete": true,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "GNO: 2.xx, Bilgisayar Alanı"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "contact": {
+                "field_id": "contact",
+                "field_title": "İletişim",
+                "description": "Zorunlu alanları doldurduktan sonra mesajınızı gönderebilirsiniz...",
+                "placeholder_sender_mail_address": "Mail Adresiniz",
+                "placeholder_sender_fullname": "Tam Adınız",
+                "placeholder_sender_gsm": "Cep Telefonu Numaranız (Zorunlu Değildir)",
+                "placeholder_message_body": "Mesajınız",
+                "send_button_text": "Gönder"
+            }
+        },
+        "en": {
+            "bio": {
+                "field_id": "",
+                "field_title": "",
+                "full_name": "",
+                "photo_url": "",
+                "brief_info": "",
+                "urls": [
+                    {
+                        "is_icon": false,
+                        "url_text": "",
+                        "url": ""
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "field_id": "",
+                    "field_title": "",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "",
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": ""
+                                },
+                                {
+                                    "bullet_info_text": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "field_id": "",
+                    "field_title": "",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "",
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "contact": {
+                "field_id": "",
+                "field_title": "",
+                "description": "",
+                "placeholder_sender_mail_address": "",
+                "placeholder_sender_fullname": "",
+                "placeholder_sender_gsm": "Cep Telefonu Numaranız (Zorunlu Değildir)",
+                "placeholder_message_body": "",
+                "send_button_text": ""
+            }
+        }
+    }
+}
