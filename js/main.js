@@ -109,28 +109,28 @@ function fillContact(data) {
                         '<label>' + data.description + '</label>' +
                         '<form class="col-12">' +
                             '<div class="form-group">' +
-                                '<label for="exampleFormControlInput1">' + data.label_sender_mail_address + ' (*)</label>' +
-                                '<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="' + data.placeholder_sender_mail_address + '">' +
+                                '<label for="sender-mail-address">' + data.label_sender_mail_address + ' (*)</label>' +
+                                '<input type="email" class="form-control" id="sender-mail-address" placeholder="' + data.placeholder_sender_mail_address + '">' +
                             '</div>' +
                             '<div class="form-group">' +
-                                '<label for="exampleFormControlInput1">' + data.label_sender_fullname + ' (*)</label>' +
-                                '<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="' + data.placeholder_sender_fullname + '">' +
+                                '<label for="sender-full-name">' + data.label_sender_fullname + ' (*)</label>' +
+                                '<input type="text" class="form-control" id="sender-full-name" placeholder="' + data.placeholder_sender_fullname + '">' +
                             '</div>' +
                             '<div class="form-group">' +
-                                '<label for="exampleFormControlInput1">' + data.label_sender_gsm + '</label>' +
-                                '<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="' + data.placeholder_sender_gsm + '">' +
+                                '<label for="sender-telephone">' + data.label_sender_gsm + '</label>' +
+                                '<input type="tel" class="form-control" id="sender-telephone" placeholder="' + data.placeholder_sender_gsm + '">' +
                             '</div>' +
                             '<div class="form-group">' +
-                                '<label for="exampleFormControlTextarea1">' + data.label_message_body + ' (*)</label>' +
-                                '<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>' +
+                                '<label for="message-body">' + data.label_message_body + ' (*)</label>' +
+                                '<textarea class="form-control" id="message-body" rows="3"></textarea>' +
                             '</div>' +
                             '<div class="form-group">' +
                                 '<div class="form-check">' +
-                                    '<input class="form-check-input" type="checkbox" id="gridCheck">' +
-                                    '<label class="form-check-label" for="gridCheck">' + data.label_send_me_a_copy + '</label>' +
+                                    '<input class="form-check-input" type="checkbox" id="send-a-copy-to-sender">' +
+                                    '<label class="form-check-label" for="send-a-copy-to-sender">' + data.label_send_me_a_copy + '</label>' +
                                 '</div>' +
                             '</div>' +
-                            '<button type="submit" class="btn btn-primary">' + data.send_button_text + '</button>' +
+                            '<button type="submit" class="btn btn-primary" id="button-send-message">' + data.send_button_text + '</button>' +
                         '</form>' +
                     '</div>' +
                 '</div>' +
