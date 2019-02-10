@@ -1,25 +1,34 @@
 {
     "personal_info":{
         "full_name": "Osman Başar Akkaya",
-        "photo_url": "",
+        "job_title": {
+            "tr": "front-end developer @NETAS",
+            "en": "front-end developer @NETAS"
+        },
+        "photo_url": "img/photo.jpg",
         "brand_logo_url": "",
         "social_urls": [
             {
                 "icon": "",
-                "url_hover_text": "",
-                "url": ""
+                "url_hover_text": "GitHub",
+                "url": "https://github.com/basarakkaya/"
             }
         ],
         "receiver_mail_address": "contact@basarakkaya.com"
     },
     "translations":{
         "tr": {
-            "bio": {
-                "field_id": "bio",
-                "field_title": "Hakkımda",
-                "brief_info": "..."
-            },
             "fields": [
+                {
+                    "field_id": "bio",
+                    "field_title": "Hakkımda",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Lorem Ipsum"
+                        }
+                    ]
+                },
                 {
                     "field_id": "work",
                     "field_title": "İş Deneyimi",
@@ -65,7 +74,7 @@
                                     "bullet_info_text": "GNO: 3.44, Tez Konusu: ..."
                                 }
                             ]
-                        }
+                        },
                         {
                             "field_bullet_icon_url": "",
                             "field_bullet_title": "ODTÜ Elektrik-elektronik Müh. Lisans",
@@ -78,16 +87,38 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "field_id": "interest",
+                    "field_title": "İlgi Alanları",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Front-end Development"
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "UI/UX"
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Machine Learning"
+                        }
+                    ]
                 }
             ],
             "contact": {
                 "field_id": "contact",
                 "field_title": "İletişim",
-                "description": "Zorunlu alanları doldurduktan sonra mesajınızı gönderebilirsiniz...",
-                "placeholder_sender_mail_address": "Mail Adresiniz",
-                "placeholder_sender_fullname": "Tam Adınız",
-                "placeholder_sender_gsm": "Cep Telefonu Numaranız (Zorunlu Değildir)",
-                "placeholder_message_body": "Mesajınız",
+                "description": "(*) Zorunlu alanlar",
+                "label_sender_mail_address": "Mail Adresiniz",
+                "label_sender_fullname": "Tam Adınız",
+                "label_sender_gsm": "Cep Telefonu Numaranız",
+                "label_message_body": "Mesajınız",
+                "label_send_me_a_copy": "Mesajın bir kopyasını kendinize gönderin",
+                "placeholder_sender_mail_address": "isim@ornek.com",
+                "placeholder_sender_fullname": "Ad Soyad",
+                "placeholder_sender_gsm": "+90 532 123 45 67",
                 "send_button_text": "Gönder"
             }
         },

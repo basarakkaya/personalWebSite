@@ -9,6 +9,7 @@
         <script type="text/javascript" src="js/main.js"></script>
         <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <script type="application/json" src="info.json"></script>
     </head>
 
     <body>
@@ -18,128 +19,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navigationmenu">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bio">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Deneyim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#edu">Eğitim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#interest">İlgi Alanları</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">İletişim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">TR/EN</a>
-                    </li>
-                </ul>
+                <ul class="navbar-nav ml-auto" id="navbar-ul"></ul>
             </div>
         </nav>
         
         <div class="container">
-            <div class="jumbotron jumbotron-fluid jumbotron-custom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                            <img id="userphoto" src="img/photo.jpg" />
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h1 class="display-4" id="full-name">osman başar akkaya</h1>
-                            <p class="lead" id="brief-title">front-end developer @NETAS</p>
-                            <hr class="my-4">
-                            <div id="urls">
-                                <a href="https://github.com/basarakkaya/" target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <section id="bio" class="section">
-                <div class="container">
-                    <div class="row" id="bio">
-                        <div class="container">
-                            <div class="row area-title">
-                                <h4>Hakkımda</h4>
-                            </div>
-                            <div class="row">
-                                Javascript Developer @Netas...
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="work" class="section">
-                <div class="container">
-                    <div class="row" id="work">
-                        <div class="container">
-                            <div class="row area-title">
-                                <h4>İş Deneyimi</h4>
-                            </div>
-                            <div class="row">
-                                <ul>
-                                    <li>Netaş, Javascript Developer <span class="badge badge-success">07/2017-...</span></li>
-                                    <li>Vascomm, HW&SW Engineer <span class="badge badge-secondary">12/2016-07/2017</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="edu" class="section">
-                <div class="container">
-                    <div class="row" id="edu">
-                        <div class="container">
-                            <div class="row area-title">
-                                <h4>Eğitim</h4>
-                            </div>
-                            <div class="row">
-                                <ul>
-                                    <li>Bahçeşehir Üniversitesi Bilgisayar Müh. Yüksek Lisans <span class="badge badge-success">09/2017-...</span></li>
-                                    <li>BilgeAdam Akademi C#.Net Uzmanlık Eğitimi <span class="badge badge-secondary">11/2016-04/2017 </span></li>
-                                    <li>ODTÜ Elektrik-Elektronik Müh. Lisans <span class="badge badge-secondary">09/2010-06/2016</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="interest" class="section">
-                <div class="container">
-                    <div class="row" id="interest">
-                        <div class="container">
-                            <div class="row area-title">
-                                <h4>İlgi Alanları</h4>
-                            </div>
-                            <div class="row">
-                                <ul>
-                                    <li>Front-end Development</li>
-                                    <li>UI/UX</li>
-                                    <li>Machine Learning</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="contact" class="section">
-                <div class="container">
-                    <div class="row" id="contact">
-                        <div class="container">
-                            <div class="row area-title">
-                                <h4>İletişim</h4>
-                            </div>
-                            <div class="row">
-                                <a href="mailto:basar@basarakkaya.com">Mail</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="jumbotron jumbotron-fluid jumbotron-custom" id="jumbotron"></div>
+            <div id="sections"></div>
             <div class="footer" id="footer">Başar Akkaya, 2019 ©</div>
         </div>
     </body>
