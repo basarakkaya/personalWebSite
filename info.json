@@ -2,8 +2,8 @@
     "personal_info":{
         "full_name": "Osman Başar Akkaya",
         "job_title": {
-            "tr": "front-end developer @NETAS",
-            "en": "front-end developer @NETAS"
+            "tr": "front-end javascript developer @NETAS",
+            "en": "front-end javascript developer @NETAS"
         },
         "photo_url": "img/photo.jpg",
         "brand_logo_url": "",
@@ -14,7 +14,8 @@
                 "url": "https://github.com/basarakkaya/"
             }
         ],
-        "receiver_mail_address": "contact@basarakkaya.com"
+        "receiver_mail_address": "contact@basarakkaya.com",
+        "smtpjs_secure_token": "c8c58fcb-8c6c-4d33-be81-32c999306b83"
     },
     "translations":{
         "tr": {
@@ -25,7 +26,11 @@
                     "field_bullets": [
                         {
                             "field_bullet_icon_url": "",
-                            "field_bullet_title": "Lorem Ipsum"
+                            "field_bullet_title": "1992 Yılının Kasım ayında, Kastamonu'da doğdum. İlk, orta ve lise öğrenimimi Kastamonu'da tamamladım. 2010 Yılında Kastamonu Fen Lisesi'nden mezun olduktan sonra, Orta Doğu Teknik Üniversitesi Elektrik - Elektronik Mühendisliği Bölümü'ndeki eğitimime başladım. Eğitimim süresince, bölümümün `Bilgisayar` opsiyonu ile ilgilendim. Ayrıca, ODTÜ Sürekli Eğitim Merkezi'nde yürütülen `Bilgi Teknolojileri Sertifika Programı` eğitimlerini başarıyla bitirdim."
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "2016 Yılının Haziran ayında, Orta Doğu Teknik Üniversitesi'nden mezun oldum. Mezun olduktan hemen sonra iş arayışına girdim. Arayışım sürerken, Kadıköy BilgeAdam Akademi bünyesindeki `C#.Net Yazılım Uzmanlığı Eğitimi` programına başladım. Bu eğitimim sürerken ise 2016 Yılının Aralık Ayında, Vascomm Bilişim A.Ş. bünyesinde yarı zamanlı Yazılım ve Teknik Destek Uzmanı olarak çalışmaya başladım. BilgeAdam Akademi'de aldığım eğitim 2017 Nisan Ayında bittikten sonra ise, Vascomm Bilişim A.Ş.'de tam zamanlı olarak çalışmaya başladım. 2017 yılının Temmuz ayına kadar çalışmaya devam ettim; bu tarihten itibaren ise NETAŞ Telekomünikasyon A.Ş. bünyesinde Front-end Javascript Geliştirici olarak çalışmaya başladım. Halen burada çalışmaya devam etmekteyim."
                         }
                     ]
                 },
@@ -35,12 +40,12 @@
                     "field_bullets": [
                         {
                             "field_bullet_icon_url": "",
-                            "field_bullet_title": "Netaş Telekomünikasyon A.Ş., Javascript Developer",
+                            "field_bullet_title": "Netaş Telekomünikasyon A.Ş., Front-end Javascript Developer",
                             "field_bullet_badge_text": "07/2017 - ...",
                             "field_bullet_badge_is_complete": false,
                             "field_bullet_infos": [
                                 {
-                                    "bullet_info_text": "SmartOffice Client Development"
+                                    "bullet_info_text": "SmartOffice Web ve Mobil İstemci Geliştirmesi // Javascript, AngularJS, HTML/CSS"
                                 }
                             ]
                         },
@@ -51,10 +56,16 @@
                             "field_bullet_badge_is_complete": true,
                             "field_bullet_infos": [
                                 {
-                                    "bullet_info_text": "Donanım Geliştirme"
+                                    "bullet_info_text": "Starbucks On-the-Go® Projesi, Kredi Kartı ile Self Servis Ödeme Noktası Geliştirme ve Üretimi"
                                 },
                                 {
-                                    "bullet_info_text": "Yazılım Geliştirme"
+                                    "bullet_info_text": "Bursa Büyükşehir Belediyesi - Burulaş, Kredi Kartı ile Self Servis Yükleme Noktası Banka Arayüzü Geliştirmesi"
+                                },
+                                {
+                                    "bullet_info_text": "Erben, Kredi Kartı ile Self Servis Otopark Ödeme Noktası Arayüz Geliştirmesi (Çeşitli AVM Otoparkları)"
+                                },
+                                {
+                                    "bullet_info_text": "Skidata, Kredi Kartı ile Self Servis Otopark Ödeme Noktası Arayüz Geliştirmesi (Çeşitli AVM Otoparkları, Ankara YHT Gar Otoparkı)"
                                 }
                             ]
                         }
@@ -66,23 +77,26 @@
                     "field_bullets": [
                         {
                             "field_bullet_icon_url": "",
-                            "field_bullet_title": "BAÜ Bilgisayar Müh. Yüksek Lisans",
+                            "field_bullet_title": "Bahçeşehir Üniversitesi Bilgisayar Mühendisliği Yüksek Lisans Programı",
                             "field_bullet_badge_text": "09/2017 - ...",
                             "field_bullet_badge_is_complete": false,
                             "field_bullet_infos": [
                                 {
-                                    "bullet_info_text": "GNO: 3.44, Tez Konusu: ..."
+                                    "bullet_info_text": "GNO: 3.44"
                                 }
                             ]
                         },
                         {
                             "field_bullet_icon_url": "",
-                            "field_bullet_title": "ODTÜ Elektrik-elektronik Müh. Lisans",
+                            "field_bullet_title": "Orta Doğu Teknik Üniversitesi Elektrik-Elektronik Mühendisliği",
                             "field_bullet_badge_text": "09/2010 - 06/2016",
                             "field_bullet_badge_is_complete": true,
                             "field_bullet_infos": [
                                 {
-                                    "bullet_info_text": "GNO: 2.xx, Bilgisayar Alanı"
+                                    "bullet_info_text": "GNO: 2.33, Bilgisayar Alanı"
+                                },
+                                {
+                                    "bullet_info_text": "Bitirme Projesi: Görüntü işleme yaparak alandaki küp şeklindeki cisimleri tespit eden ve alan dışına taşıyan robot yapımı"
                                 }
                             ]
                         }
@@ -91,6 +105,134 @@
                 {
                     "field_id": "interest",
                     "field_title": "İlgi Alanları",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Front-end Geliştirme"
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "UI/UX"
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Makine Öğrenmesi"
+                        }
+                    ]
+                }
+            ],
+            "contact": {
+                "field_id": "contact",
+                "field_title": "İletişim",
+                "description": "(*) Zorunlu alanlar",
+                "label_sender_mail_address": "Mail Adresiniz",
+                "label_sender_fullname": "Tam Adınız",
+                "label_sender_gsm": "Cep Telefonu Numaranız",
+                "label_message_body": "Mesajınız",
+                "label_send_me_a_copy": "Mesajın bir kopyasını kendinize gönderin",
+                "placeholder_sender_mail_address": "isim@ornek.com",
+                "placeholder_sender_fullname": "Ad Soyad",
+                "placeholder_sender_gsm": "+90 532 123 45 67",
+                "send_button_text": "Gönder",
+                "clear_form_button_text": "Formu Temizle",
+                "form_success_text": "Mesajınız Başarıyla Gönderildi!",
+                "form_fail_text": "Mesajınız Gönderilirken Bir Hata Oluştu!",
+                "validity": {
+                    "mail": "Lütfen geçerli bir mail adresi giriniz",
+                    "name": "Lütfen geçerli bir metin giriniz",
+                    "telephone": "Lütfen geçerli bir telefon numarası giriniz",
+                    "message": "Lütfen geçerli bir metin giriniz",
+                    "blank": "Bu alan boş bırakılamaz"
+                }
+            }
+        },
+        "en": {
+            "fields": [
+                {
+                    "field_id": "bio",
+                    "field_title": "About Me",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "I was born in November 1992, in Kastamonu. I attended First, Middle and High School in Kastamonu. After I graduated from Kastamonu Fen Lisesi, in 2010, I started my higher education at Middle East Technical University, Department of Electrical and Electronics Engineering. During my education, I interested in `Computer` area of my department. In addition, I completed a certificate programme on Information Technologies successfully, which is conducted by ODTÜ SEM."
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "In June 2016, I graduated from Middle East technical University. Just after graduation, I started to look for a job. During my job search, I started the C#.Net Software Education, which is conducted by Kadıköy Bilgeadam Akademi. During this education, I started to work as Part-time Software and Technical Support Specialist, at Vascomm Bilişim A.Ş., in December 2016. Just after the end of my education at BilgeAdam Akademi, in April 2017, I started to work as a Full-time Specialist. Until July 2017, I have worked there. Since then, I am working at NETAŞ Telekomünikasyon A.Ş. as Front-end Javascript Developer."
+                        }
+                    ]
+                },
+                {
+                    "field_id": "work",
+                    "field_title": "Working Experience",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Netaş Telekomünikasyon A.Ş., Front-end Javascript Developer",
+                            "field_bullet_badge_text": "07/2017 - ...",
+                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "SmartOffice Web and Mobile Client Development // Javascript, AngularJS, HTML/CSS"
+                                }
+                            ]
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Vascomm A.Ş., HW&SW Developer",
+                            "field_bullet_badge_text": "12/2016 - 06/2017",
+                            "field_bullet_badge_is_complete": true,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "Starbucks On-the-Go® Project, Self Service Credit Card Payment Point Development & and Production"
+                                },
+                                {
+                                    "bullet_info_text": "Bursa Metropolitan Municipality - Burulaş, Self Service Credit Card Payment Point Banking Interface Development & and Production"
+                                },
+                                {
+                                    "bullet_info_text": "Erben, Self Service Credit Card Autopark Payment Point Interface Development & and Production (Various Mall Autoparks)"
+                                },
+                                {
+                                    "bullet_info_text": "Skidata,Self Service Credit Card Autopark Payment Point Interface Development & and Production (Various Mall Autoparks, Ankara YHT Train Station Autopark)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "field_id": "edu",
+                    "field_title": "Education",
+                    "field_bullets": [
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Bahçeşehir University Computer Engineering Master's Degree Programme",
+                            "field_bullet_badge_text": "09/2017 - ...",
+                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "CGPA: 3.44"
+                                }
+                            ]
+                        },
+                        {
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Middle East Technical University, Electrical & Electronics Engineering",
+                            "field_bullet_badge_text": "09/2010 - 06/2016",
+                            "field_bullet_badge_is_complete": true,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "CGPA: 2.33, Computer Area"
+                                },
+                                {
+                                    "bullet_info_text": "Graduation Project: Constructing a Robot that detects cube-shaped object performing image processing on a field and throws the objects out of that field"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "field_id": "interest",
+                    "field_title": "Interests",
                     "field_bullets": [
                         {
                             "field_bullet_icon_url": "",
@@ -109,78 +251,27 @@
             ],
             "contact": {
                 "field_id": "contact",
-                "field_title": "İletişim",
-                "description": "(*) Zorunlu alanlar",
-                "label_sender_mail_address": "Mail Adresiniz",
-                "label_sender_fullname": "Tam Adınız",
-                "label_sender_gsm": "Cep Telefonu Numaranız",
-                "label_message_body": "Mesajınız",
-                "label_send_me_a_copy": "Mesajın bir kopyasını kendinize gönderin",
-                "placeholder_sender_mail_address": "isim@ornek.com",
-                "placeholder_sender_fullname": "Ad Soyad",
+                "field_title": "Contact",
+                "description": "(*) Mandatory Fields",
+                "label_sender_mail_address": "Your email",
+                "label_sender_fullname": "Full Name",
+                "label_sender_gsm": "Your Mobile Phone",
+                "label_message_body": "Your Message",
+                "label_send_me_a_copy": "Send me a copy",
+                "placeholder_sender_mail_address": "name@example.com",
+                "placeholder_sender_fullname": "Name Surname",
                 "placeholder_sender_gsm": "+90 532 123 45 67",
-                "send_button_text": "Gönder"
-            }
-        },
-        "en": {
-            "bio": {
-                "field_id": "",
-                "field_title": "",
-                "full_name": "",
-                "photo_url": "",
-                "brief_info": "",
-                "urls": [
-                    {
-                        "is_icon": false,
-                        "url_text": "",
-                        "url": ""
-                    }
-                ]
-            },
-            "fields": [
-                {
-                    "field_id": "",
-                    "field_title": "",
-                    "field_bullets": [
-                        {
-                            "field_bullet_icon_url": "",
-                            "field_bullet_title": "",
-                            "field_bullet_infos": [
-                                {
-                                    "bullet_info_text": ""
-                                },
-                                {
-                                    "bullet_info_text": ""
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "field_id": "",
-                    "field_title": "",
-                    "field_bullets": [
-                        {
-                            "field_bullet_icon_url": "",
-                            "field_bullet_title": "",
-                            "field_bullet_infos": [
-                                {
-                                    "bullet_info_text": ""
-                                }
-                            ]
-                        }
-                    ]
+                "send_button_text": "Send",
+                "clear_form_button_text": "Clear Form",
+                "form_success_text": "Your message is sent successfully!",
+                "form_fail_text": "There was an error sending your message!",
+                "validity": {
+                    "mail": "Please enter a valid email address",
+                    "name": "Please enter a valid text",
+                    "telephone": "Please enter a valid telephone number",
+                    "message": "Please enter a valid text",
+                    "blank": "This field cannot be leaved blank"
                 }
-            ],
-            "contact": {
-                "field_id": "",
-                "field_title": "",
-                "description": "",
-                "placeholder_sender_mail_address": "",
-                "placeholder_sender_fullname": "",
-                "placeholder_sender_gsm": "Cep Telefonu Numaranız (Zorunlu Değildir)",
-                "placeholder_message_body": "",
-                "send_button_text": ""
             }
         }
     }
