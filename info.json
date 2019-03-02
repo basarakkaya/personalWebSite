@@ -270,7 +270,7 @@
                     "name": "Please enter a valid text",
                     "telephone": "Please enter a valid telephone number",
                     "message": "Please enter a valid text",
-                    "blank": "This field cannot be leaved blank"
+                    "blank": "This field cannot be left blank"
                 }
             }
         }
