@@ -46,6 +46,9 @@
                             "field_bullet_infos": [
                                 {
                                     "bullet_info_text": "SmartOffice Web ve Mobil İstemci Geliştirmesi // Javascript, AngularJS, HTML/CSS"
+                                },
+								{
+                                    "bullet_info_text": "RTC SoftPhone Web İstemci Geliştirmesi // Javascript, ReactJS, Redux, Electron, HTML/CSS"
                                 }
                             ]
                         },
@@ -174,6 +177,9 @@
                             "field_bullet_infos": [
                                 {
                                     "bullet_info_text": "SmartOffice Web and Mobile Client Development // Javascript, AngularJS, HTML/CSS"
+                                },
+								{
+                                    "bullet_info_text": "RTC SoftPhone Web client Development // Javascript, ReactJS, Redux, Electron, HTML/CSS"
                                 }
                             ]
                         },
