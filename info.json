@@ -2,8 +2,8 @@
     "personal_info":{
         "full_name": "Osman Başar Akkaya",
         "job_title": {
-            "tr": "front-end javascript developer @NETAS",
-            "en": "front-end javascript developer @NETAS"
+            "tr": "yazılım geliştirme uzmanı @Token Finansal Teknolojiler",
+            "en": "software development specialist @Token Financial Technologies"
         },
         "photo_url": "img/photo.jpg",
         "brand_logo_url": "",
@@ -30,7 +30,7 @@
                         },
                         {
                             "field_bullet_icon_url": "",
-                            "field_bullet_title": "2016 Yılının Haziran ayında, Orta Doğu Teknik Üniversitesi'nden mezun oldum. Mezun olduktan hemen sonra iş arayışına girdim. Arayışım sürerken, Kadıköy BilgeAdam Akademi bünyesindeki `C#.Net Yazılım Uzmanlığı Eğitimi` programına başladım. Bu eğitimim sürerken ise 2016 Yılının Aralık Ayında, Vascomm Bilişim A.Ş. bünyesinde yarı zamanlı Yazılım ve Teknik Destek Uzmanı olarak çalışmaya başladım. BilgeAdam Akademi'de aldığım eğitim 2017 Nisan Ayında bittikten sonra ise, Vascomm Bilişim A.Ş.'de tam zamanlı olarak çalışmaya başladım. 2017 yılının Temmuz ayına kadar çalışmaya devam ettim; bu tarihten itibaren ise NETAŞ Telekomünikasyon A.Ş. bünyesinde Front-end Javascript Geliştirici olarak çalışmaya başladım. Halen burada çalışmaya devam etmekteyim."
+                            "field_bullet_title": "2016 Yılının Haziran ayında, Orta Doğu Teknik Üniversitesi'nden mezun oldum. Mezun olduktan hemen sonra iş arayışına girdim. Arayışım sürerken, Kadıköy BilgeAdam Akademi bünyesindeki `C#.Net Yazılım Uzmanlığı Eğitimi` programına başladım. Bu eğitimim sürerken ise 2016 Yılının Aralık Ayında, Vascomm Bilişim A.Ş. bünyesinde yarı zamanlı Yazılım ve Teknik Destek Uzmanı olarak çalışmaya başladım. BilgeAdam Akademi'de aldığım eğitim 2017 Nisan Ayında bittikten sonra ise, Vascomm Bilişim A.Ş.'de tam zamanlı olarak çalışmaya başladım. 2017 yılının Temmuz ayına kadar çalışmaya devam ettim; bu tarihten itibaren ise NETAŞ Telekomünikasyon A.Ş. bünyesinde Front-end Javascript Geliştirici olarak çalışmaya başladım. 2019 yılının Ağustos ayı sonunda NETAŞ'taki görevimden ayrılarak Token Finansal Teknolojiler A.Ş. bünyesinde Yazılım Geliştirme Uzmanı olarak çalışmaya başladım. Halen burada çalışmaya devam etmekteyim."
                         }
                     ]
                 },
@@ -38,11 +38,22 @@
                     "field_id": "work",
                     "field_title": "İş Deneyimi",
                     "field_bullets": [
+						{
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Token Finansal Teknolojiler A.Ş., Yazılım Geliştirme Uzmanı",
+                            "field_bullet_badge_text": "08/2019 - ...",
+                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "ReactJS ve NodeJS kullanılarak, Beko Ödeme Kaydedici Cihazların Bayi ve Mükellef Panellerinin Web Front-end and Back-end Yazılım Geliştirmeleri"
+                                }
+                            ]
+                        },
                         {
                             "field_bullet_icon_url": "",
                             "field_bullet_title": "Netaş Telekomünikasyon A.Ş., Front-end Javascript Developer",
-                            "field_bullet_badge_text": "07/2017 - ...",
-                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_badge_text": "07/2017 - 08/2019",
+                            "field_bullet_badge_is_complete": true,
                             "field_bullet_infos": [
                                 {
                                     "bullet_info_text": "SmartOffice Web ve Mobil İstemci Geliştirmesi // Javascript, AngularJS, HTML/CSS"
@@ -161,7 +172,7 @@
                         },
                         {
                             "field_bullet_icon_url": "",
-                            "field_bullet_title": "In June 2016, I graduated from Middle East technical University. Just after graduation, I started to look for a job. During my job search, I started the C#.Net Software Education, which is conducted by Kadıköy Bilgeadam Akademi. During this education, I started to work as Part-time Software and Technical Support Specialist, at Vascomm Bilişim A.Ş., in December 2016. Just after the end of my education at BilgeAdam Akademi, in April 2017, I started to work as a Full-time Specialist. Until July 2017, I have worked there. Since then, I am working at NETAŞ Telekomünikasyon A.Ş. as Front-end Javascript Developer."
+                            "field_bullet_title": "In June 2016, I graduated from Middle East technical University. Just after graduation, I started to look for a job. During my job search, I started the C#.Net Software Education, which is conducted by Kadıköy Bilgeadam Akademi. During this education, I started to work as Part-time Software and Technical Support Specialist, at Vascomm Bilişim A.Ş., in December 2016. Just after the end of my education at BilgeAdam Akademi, in April 2017, I started to work as a Full-time Specialist. Until July 2017, I have worked there. Between July 2017 and the end of August 2019, I worked at NETAŞ as Front-end Javascript Developer. By the end of August 2019, I started working at Token Financial Technologies as Software Development Specialist. Since then, I am working there."
                         }
                     ]
                 },
@@ -169,17 +180,28 @@
                     "field_id": "work",
                     "field_title": "Working Experience",
                     "field_bullets": [
+						{
+                            "field_bullet_icon_url": "",
+                            "field_bullet_title": "Token Financial Technologies A.Ş., Software Development Specialist",
+                            "field_bullet_badge_text": "08/2019 - ...",
+                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_infos": [
+                                {
+                                    "bullet_info_text": "Web Front-end and Back-end Development with ReactJS and NodeJS, of Reseller and Merchant Panels of Beko ECR Devices"
+                                }
+                            ]
+                        },
                         {
                             "field_bullet_icon_url": "",
                             "field_bullet_title": "Netaş Telekomünikasyon A.Ş., Front-end Javascript Developer",
-                            "field_bullet_badge_text": "07/2017 - ...",
-                            "field_bullet_badge_is_complete": false,
+                            "field_bullet_badge_text": "07/2017 - 08/2019",
+                            "field_bullet_badge_is_complete": true,
                             "field_bullet_infos": [
                                 {
                                     "bullet_info_text": "SmartOffice Web and Mobile Client Development // Javascript, AngularJS, HTML/CSS"
                                 },
 								{
-                                    "bullet_info_text": "RTC SoftPhone Web client Development // Javascript, ReactJS, Redux, Electron, HTML/CSS"
+                                    "bullet_info_text": "RTC SoftPhone Web Client Development // Javascript, ReactJS, Redux, Electron, HTML/CSS"
                                 }
                             ]
                         },
@@ -276,7 +298,7 @@
                     "name": "Please enter a valid text",
                     "telephone": "Please enter a valid telephone number",
                     "message": "Please enter a valid text",
-                    "blank": "This field cannot be left blank"
+                    "blank": "This field cannot be leaved blank"
                 }
             }
         }
